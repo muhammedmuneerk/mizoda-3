@@ -387,8 +387,8 @@ voiceSearchBtn.addEventListener('click', () => {
             // Simulating API call
             await new Promise(resolve => setTimeout(resolve, 1000));
             const newProducts = [
-                { name: 'Cinnamon', description: 'Aromatic cinnamon sticks from Sri Lanka.', image:"images/Cinnamon-products-3.jpeg" },
-                { name: 'Cloves', description: 'Fragrant cloves perfect for various cuisines.', image:"images/Cloves-products-3.jpeg" }
+                { name: 'Cinnamon', description: 'Aromatic cinnamon sticks from Sri Lanka.', image:"images/cinnamon-products-3.jpeg" },
+                { name: 'Cloves', description: 'Fragrant cloves perfect for various cuisines.', image:"images/cloves-products-3.jpeg" }
             ];
 
             const productGrid = document.querySelector('.product-grid');
