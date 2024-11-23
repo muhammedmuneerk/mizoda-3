@@ -691,3 +691,18 @@ footer {
 .slide-in {
     animation: slideIn 0.5s ease-in-out;
 }
+
+
+.mmk-link {
+    color: #FFFFFF;
+    font-family: bold;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.mmk-link:hover {
+    color: #00C853;
+    font-family: bold;
+    font-size: 1.09rem;
+    transition:.3s
+}
