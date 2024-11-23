@@ -346,8 +346,8 @@ textarea:valid ~ label {
 }
 
 footer {
-    background-color: var(--color-primary);
-    color: var(--color-background);
+    background-color: #050404;
+    color: whitesmoke;
     padding: 3rem 0;
 }
 
@@ -366,7 +366,7 @@ footer {
     width: 1.5rem;
     height: 1.5rem;
     transition: all var(--transition-speed) ease;
-    color: var(--color-background);
+    color: thistle;
 }
 
 .icon:hover {
