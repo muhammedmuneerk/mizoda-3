@@ -8,6 +8,7 @@
     --transition-speed: 0.3s;
     --font-size-base: 16px;
     --line-height: 1.6;
+    --green-section-title:#FFFFFF
 }
 
 .dark-theme {
@@ -17,6 +18,7 @@
     --color-text: #F5F5F5;
     --color-background: #121212;
     --color-card-background: #1E1E1E;
+    --green-section-title:#121212;
 }
 
 * {
@@ -275,6 +277,9 @@ h1 {
     background-color: var(--color-secondary);
     color: var(--color-background);
 }
+.reviews h2 {
+    color: var(--green-section-title);
+}
 
 .review-slider {
     display: flex;
@@ -309,6 +314,9 @@ h1 {
 .contact {
     background-color: var(--color-secondary);
     color: var(--color-background);
+}
+.contact h2 {
+    color: var(--green-section-title);
 }
 
 .form-group {
